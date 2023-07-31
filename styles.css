@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a0b8c4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+}
+#text{
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: Bold;
+    border-spacing: 0lvw;
+    color: rgb(11, 10, 10);
+}
+#author-name{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-spacing: 0lvw;
+    color: rgb(11, 10, 10);
+}
+#name{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-spacing: 0lvw;
+    color: rgb(30, 65, 183);
+}
+#wel{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-spacing: 0lvw;
+    font-style: oblique;
+    color: rgb(30, 65, 183);
+}

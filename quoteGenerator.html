@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quote Generator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quote Generator</h1>
+    <div class="quote">
+      <h3>Hi!   WELCOME</h3>
+    </div>
+  </div>
+  <form>
+    <label>May I know your name : </label>
+    <input type="text" name="name" id="name" /><br>
+    <input type="button" value="Submit" onClick="welcome()">
+    <h5 id="wel"></h5>
+    <label for="con">Choose a Concept:</label>
+    <select name="Concept" id="con">
+      <option value="quotes_Life">Life</option>
+      <option value="quotes_Study">Study</option>
+      <option value="quotes_Love">Love</option>
+      <option value="quotes_Friends">Friends</option>
+      
+    </select>
+    <br>
+  </form>
+  </form>
+  <br>
+<button id="generateButton" onclick="generateQuote()">Generate Quote</button>
+
+</div>
+  <p id="text"></p>
+  <p id="author-name"></p>
+
+  <script src="script.js"></script>
+ 
+</body>
+</html>
